@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+  <link  href="https://fonts.google.com/specimen/Josefin+Sans">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Frontend Mentor | Todo app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+
+</head>
+<body class="body" id="body">
+
+  <div class="content">
+    <h1 id='header'>
+   Todo
+   <img src="./images/icon-moon.svg" alt="" id="moon"  class="toggle">
+   <img src="./images/icon-sun.svg" id="sun" alt="" class="toggle">
+</h1>
+
+ <div class="todo">
+  <div class="addtodo box">
+     <div class="checkbox">
+    <img src="./images/icon-check.svg" class="check">
+  </div>
+  <input type="text" name="addtodo" id="addtodo" placeholder="Create a new todo...."  onchange="this.placeholder = 'supppp'">
+  </div>
+
+
+  <div class="todoList">
+    <div class="todoItem box" id="item1">
+      <div class="checkbox">
+        <img src="./images/icon-check.svg" class="check" alt="">
+      </div>
+      <div class="todoCont ">Jog around the park</div>
+      <img src="./images/icon-cross.svg" class="cross">
+    </div>
+
+
+    <div class="todoItem box" id="item2">
+      <div class="checkbox">
+        <img src="./images/icon-check.svg" class="check"alt="">
+      </div>
+      <div class="todoCont ">Jog around the park</div>
+      <img src="./images/icon-cross.svg" class="cross">
+    </div>
+
+    <div class="todoItem box" id="item3">
+      <div class="checkbox">
+        <img src="./images/icon-check.svg"class="check" alt="">
+      </div>
+      <div class="todoCont ">Cook dinner</div>
+    <img src="./images/icon-cross.svg" class="cross">
+    </div>
+
+    <div class="todoItem box" id="item4">
+      <div class="checkbox">
+        <img src="./images/icon-check.svg" class="check"alt="">
+      </div>
+      <div class="todoCont ">Dance around </div>
+    <img src="./images/icon-cross.svg" class="cross">
+    </div>
+
+    <div class="todoItem box" id="item5">
+      <div class="checkbox">
+        <img src="./images/icon-check.svg" class="check" alt="">
+      </div>
+      <div class="todoCont ">finish homework</div>
+    <img src="./images/icon-cross.svg" class="cross">
+    </div>
+
+    <div class="todoItem box" id="item6">
+      <div class="checkbox">
+        <img src="./images/icon-check.svg" class="check" alt="">
+      </div>
+      <div class="todoCont ">Jog around the park</div>
+  <img src="./images/icon-cross.svg" class="cross">
+    </div>
+ 
+ </div>
+
+  <div class="todoOpt box">
+    <div class="itemNo" style="margin-right: 14%;"><span id="no"> </span>  items left</div>
+    <div class="filter">
+      <div id="all">All</div>
+      <div id="Active">Active</div>
+      <div id= "completed">Completed</div>
+    </div>
+    <div id="clearComp">Clear Completed</div>
+  </div>
+
+ <div class="info">Drag and drop to reorder list</div> </div>
+
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

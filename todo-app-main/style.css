@@ -1,0 +1,159 @@
+/*colors*/
+:root{
+   color: hsl(0, 0%, 98%);
+color: hsl(236, 33%, 92%);
+color: hsl(233, 11%, 84%);
+color: hsl(236, 9%, 61%);
+color: hsl(235, 19%, 35%);
+}
+:root{
+color: hsl(235, 21%, 11%);
+ color: hsl(235, 24%, 19%);
+color: hsl(234, 39%, 85%);
+color: hsl(236, 33%, 92%);
+color: hsl(234, 11%, 52%);
+color: hsl(233, 14%, 35%);
+color:hsl(237, 14%, 26%);
+
+}
+
+
+
+
+
+.body{
+    background-image: url(./images/bg-desktop-light.jpg);
+    background-size:auto;
+    background-repeat: no-repeat;
+    
+    font-family: 'Josefin Sans';
+background-color:hsl(0, 0%, 98%) ;
+    
+ 
+}
+
+
+.content{
+    
+    margin: 0 auto;
+    width: 40%;
+    margin-top: 40px;
+    padding: 20px;
+}
+#header{
+    color: white ;
+    font-size: 40px;
+     font-style: normal;
+  font-weight: 700;
+    letter-spacing: 15px;
+    text-transform: uppercase;
+
+}
+#header img{
+    float: right;
+}
+.checkbox{
+    border: 1px hsl(236, 9%, 61%) solid;
+ width: 15px;
+ height: 13px;
+ padding: 3px;
+ margin-top: 12px;
+    border-radius: 50%;
+
+    align-content: center;
+    margin: 10px;
+
+   
+}
+.checkbox:hover{
+    cursor: pointer;
+   
+    border: 1px hsl(280, 87%, 65%) solid;
+}
+.check{
+    width: 14px;
+    display: none;
+    
+}
+
+.box{
+    border-bottom:0.1px hsl(236, 9%, 61%) solid;
+    display: flex;
+     border-radius: 6px;
+    background-color:hsl(0 0% 98%);
+}
+
+
+#addtodo{
+    width: 90%;
+    padding: 6px;
+border-color: transparent;
+    font-size: 17px;
+  border-style: none;
+  outline: none;
+}
+
+.todoList{
+    margin-top: 30px;
+    box-shadow: 5px 5px 5px 0  hsl(233, 11%, 84%);
+     border-radius: 6px;
+ background-color:hsl(0 0% 98%);
+}
+.todoCont{
+    padding: 17px;
+    font-size: 18px ;
+    color:  hsl(234, 21%, 29%);
+    font-weight: 400;
+    
+    min-width: 75%;
+}
+.todoCont:hover{
+    cursor: pointer;
+}
+.todoOpt{
+    display: flex;
+    padding: 13px;
+    font-size: 15px;
+}
+
+.filter{
+    display: flex;
+    margin-right: 10%;
+}
+.filter div{
+    margin-right: 20px;
+}
+.info{
+    text-align: center;
+    margin: 15px;
+}
+#header img:hover{
+    cursor: pointer;
+}
+#sun{
+    display: none;
+}
+#moon{
+    display: block;
+}
+
+.cross{
+position: relative;
+right: 0px;
+    width: 15px;
+    height: 15px;
+float: right;
+    margin-top: 4%;
+    margin-right: 0px;
+    
+    opacity: 0;
+}
+
+.cross:hover{
+    opacity:1 ;
+    cursor: pointer;
+}
+#clearComp:hover{
+    cursor: pointer;
+    font-weight: bold;
+}
